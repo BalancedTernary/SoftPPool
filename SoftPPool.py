@@ -1,6 +1,6 @@
 import torch
 
-class SoftPPool(torch.nn.Module):
+class SoftPPool2D(torch.nn.Module):
     def __init__(self,**kwargs):
         super(SoftPPool, self).__init__()
         self.Pool=torch.nn.AvgPool2d(**kwargs)
